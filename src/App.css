@@ -1,9 +1,13 @@
+* {
+  margin: 0;
+}
 .App {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
+#Logo {
+  max-width:10%;
+  padding: 10px;
   pointer-events: none;
 }
 
@@ -14,14 +18,12 @@
 }
 
 .App-header {
-  background-color: #282c34;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
 }
 
 .App-link {
@@ -35,4 +37,54 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+nav {
+  display:flex;
+  justify-content: space-between;
+  padding: 0 25px;
+  border-bottom: 5px solid darkgreen;
+  margin-bottom: 15px;
+  float:right;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  padding-bottom: 10px;
+  float:right;
+  font-size: 35px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: darkgreen;
+  font-weight: bold;
+  margin-right: 8px;
+  padding: 0 5px;
+  float:right;
+}
+
+.nav-links a:hover {
+  color:white;
+}
+
+.nav-links a:active {
+  color:white;
+}
+
+.nav-links a:last-of-type {
+  margin-right: 0;
+}
+
+.nav-links a.active {
+  color: white;
+}
+
+.pizza-header {
+  background-color: crimson;
+}
+.container {
+  background-color: #DDAD7C;
 }
