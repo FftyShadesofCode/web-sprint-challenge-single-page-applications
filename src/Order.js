@@ -50,7 +50,7 @@ export default function Order(props)
                 <div className='form-group inputs'>
                     <h4>Pizza Details</h4>
 
-                    <label>Customer Name&nbsp;
+                    <label>Customer Name:
                         <input
                             id='name-input'
                             value={values.customerName}
@@ -60,7 +60,7 @@ export default function Order(props)
                         />
                     </label>
 
-                    <label>Pizza Size
+                    <label>Pizza Size:
                         <select
                             id='size-dropdown'
                             onChange={onChange}
@@ -78,7 +78,7 @@ export default function Order(props)
                 <div className='form-group checkboxes'>
                     <h4>Toppings</h4>
 
-                    <label>Pineapple
+                    <label> Pineapple
                         <input
                             type="checkbox"
                             name="pineapple"
@@ -87,7 +87,7 @@ export default function Order(props)
                         />
                     </label>
 
-                    <label>Sausage
+                    <label> Sausage
                         <input
                             type="checkbox"
                             name="sausage"
@@ -96,7 +96,7 @@ export default function Order(props)
                         />
                     </label>
 
-                    <label>Cilantro
+                    <label> Cilantro
                         <input
                             type="checkbox"
                             name="cilantro"
@@ -105,7 +105,7 @@ export default function Order(props)
                         />
                     </label>
 
-                    <label>Onion
+                    <label> Onion
                         <input
                             type="checkbox"
                             name="onion"
@@ -114,7 +114,7 @@ export default function Order(props)
                         />
                     </label>
 
-                    <label>Chicken
+                    <label> Chicken
                         <input
                             type="checkbox"
                             name="chicken"
@@ -123,7 +123,7 @@ export default function Order(props)
                         />
                     </label>
 
-                    <label>Tomato
+                    <label> Tomato
                         <input
                             type="checkbox"
                             name="tomato"
@@ -132,7 +132,7 @@ export default function Order(props)
                         />
                     </label>
 
-                    <label>Olives
+                    <label> Olives
                         <input
                             type="checkbox"
                             name="olives"
@@ -143,7 +143,7 @@ export default function Order(props)
                 </div>
 
                 <div className='form-group inputs'>
-                    <label>Special Instructions&nbsp;
+                    <label>Special Instructions:
                         <input
                             id='special-text'
                             value={values.special}
